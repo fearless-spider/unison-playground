@@ -1,0 +1,11 @@
+exit
+compile helloWorld helloFile
+add
+run helloWorld Ada
+run helloWorld
+myTerm :[Nat]
+myTerm
+exit
+myTerm = List.map (x->x*10) [1,2,3,4,5,6]
+fork .base lib.base
+cd quickstart

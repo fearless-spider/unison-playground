@@ -1,0 +1,5 @@
+helloWorld:'{IO, Exception}()
+helloWorld = do
+  use Text ++
+  name = !console.getLine
+  printLine("Hello " ++ name)
